@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.ValidatePasswordToggle"/>
+      <class name="tests.LoginUsingBlankFields"/>
+      <class name="tests.LoginDisableEmptyFields"/>
+      <class name="tests.LoginUisngRandomCredentials"/>
+      <class name="tests\ValidatePresneceOfPageElements.java"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
